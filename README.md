@@ -29,8 +29,8 @@ apt install python3 git libusb-1.0 python3-pip
 
 #### Grab files 
 ```
-git clone https://github.com/RohitVerma882/termux-mtkclient
-cd mtkclient
+git clone https://github.com/vaginessa/termux-mtkclient
+cd termux-mtkclient
 pip3 install -r requirements.txt
 pip3 install .
 ```
@@ -43,7 +43,7 @@ pip3 install .
 ```bash
 python mtk script run.example
 ```
-See the file "[run.example](https://github.com/RohitVerma882/termux-mtkclient/blob/main/examples/run.example)" on how to structure the script file
+See the file "[run.example](https://github.com/vaginessa/termux-mtkclient/blob/main/examples/run.example)" on how to structure the script file
 
 ### Root the phone (Tested with android 9 - 12)
 
@@ -58,7 +58,7 @@ python mtk reset
 ```
 
 3. Download patched magisk for mtk:
-Download latest Magisk [here]([https://raw.githubusercontent.com/vvb2060/magisk_files/44ca9ed38c29e22fa276698f6c03bc1168df2c10/app-release.ap](https://github.com/topjohnwu/Magisk/releases)k)
+Download latest Magisk [here]([https://github.com/topjohnwu/Magisk/releases](https://github.com/topjohnwu/Magisk/releases))
 
 4. Install on target phone
 - you need to enable usb-debugging via Settings/About phone/Version, Tap 7x on build number
